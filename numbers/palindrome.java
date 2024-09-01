@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class palindrome {
 
+    /*
+    *  A number which has same meaning when read from front or rear end
+    *  e.g. 121, 101, 727
+    * */
+
     public static boolean isNumPalindrome(int num) {
         StringBuilder axpNum = new StringBuilder();
         int numToCompare = num;
